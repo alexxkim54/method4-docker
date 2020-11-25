@@ -14,8 +14,6 @@ RUN apt-get install -y nmap
 RUN apt-get install -y traceroute
 
 # 3) install packages
-RUN pip install --no-cache-dir geopandas
-RUN pip install --no-cache-dir babypandas
 RUN pip install --no-cache-dir torch==1.7.0+cu101
 RUN pip install --no-cache-dir pandas
 RUN pip install --no-cache-dir seaborn
